@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "framework": "react",
+  "public": "public",
+  "outputDirectory": "build",
+  "env": {
+    "REACT_APP_API_URL": "@react_app_api_url"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
