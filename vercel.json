@@ -2,7 +2,7 @@
   "version": 2,
   "buildCommand": "npm run build",
   "framework": "react",
-  "public": "public",
+  "public": true,
   "outputDirectory": "build",
   "env": {
     "REACT_APP_API_URL": "@react_app_api_url"
